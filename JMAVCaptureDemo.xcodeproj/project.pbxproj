@@ -11,9 +11,10 @@
 		F4C09C681F43E6F800CD7B17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C09C671F43E6F800CD7B17 /* AppDelegate.m */; };
 		F4C09C6B1F43E6F800CD7B17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C09C6A1F43E6F800CD7B17 /* ViewController.m */; };
 		F4C09C6E1F43E6F800CD7B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C09C6C1F43E6F800CD7B17 /* Main.storyboard */; };
-		F4C09C701F43E6F800CD7B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C09C6F1F43E6F800CD7B17 /* Assets.xcassets */; };
 		F4C09C731F43E6F800CD7B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C09C711F43E6F800CD7B17 /* LaunchScreen.storyboard */; };
 		F4C09C7E1F43E6F800CD7B17 /* JMAVCaptureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C09C7D1F43E6F800CD7B17 /* JMAVCaptureDemoTests.m */; };
+		F4C09C891F43E72100CD7B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C09C881F43E72100CD7B17 /* Assets.xcassets */; };
+		F4C09C8C1F43E88E00CD7B17 /* UIImage+Unity.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C09C8B1F43E88E00CD7B17 /* UIImage+Unity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +35,14 @@
 		F4C09C691F43E6F800CD7B17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F4C09C6A1F43E6F800CD7B17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F4C09C6D1F43E6F800CD7B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F4C09C6F1F43E6F800CD7B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4C09C721F43E6F800CD7B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4C09C741F43E6F800CD7B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4C09C791F43E6F800CD7B17 /* JMAVCaptureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMAVCaptureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C09C7D1F43E6F800CD7B17 /* JMAVCaptureDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMAVCaptureDemoTests.m; sourceTree = "<group>"; };
 		F4C09C7F1F43E6F800CD7B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C09C881F43E72100CD7B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4C09C8A1F43E88E00CD7B17 /* UIImage+Unity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Unity.h"; sourceTree = "<group>"; };
+		F4C09C8B1F43E88E00CD7B17 /* UIImage+Unity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Unity.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +88,10 @@
 				F4C09C671F43E6F800CD7B17 /* AppDelegate.m */,
 				F4C09C691F43E6F800CD7B17 /* ViewController.h */,
 				F4C09C6A1F43E6F800CD7B17 /* ViewController.m */,
+				F4C09C8A1F43E88E00CD7B17 /* UIImage+Unity.h */,
+				F4C09C8B1F43E88E00CD7B17 /* UIImage+Unity.m */,
 				F4C09C6C1F43E6F800CD7B17 /* Main.storyboard */,
-				F4C09C6F1F43E6F800CD7B17 /* Assets.xcassets */,
+				F4C09C881F43E72100CD7B17 /* Assets.xcassets */,
 				F4C09C711F43E6F800CD7B17 /* LaunchScreen.storyboard */,
 				F4C09C741F43E6F800CD7B17 /* Info.plist */,
 				F4C09C631F43E6F800CD7B17 /* Supporting Files */,
@@ -196,7 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4C09C731F43E6F800CD7B17 /* LaunchScreen.storyboard in Resources */,
-				F4C09C701F43E6F800CD7B17 /* Assets.xcassets in Resources */,
+				F4C09C891F43E72100CD7B17 /* Assets.xcassets in Resources */,
 				F4C09C6E1F43E6F800CD7B17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +223,7 @@
 				F4C09C6B1F43E6F800CD7B17 /* ViewController.m in Sources */,
 				F4C09C681F43E6F800CD7B17 /* AppDelegate.m in Sources */,
 				F4C09C651F43E6F800CD7B17 /* main.m in Sources */,
+				F4C09C8C1F43E88E00CD7B17 /* UIImage+Unity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
